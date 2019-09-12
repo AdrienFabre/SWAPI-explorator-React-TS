@@ -1,22 +1,50 @@
 {
-  "name": "SWAPI-explorator-React-TS",
+  "name": "swapi-explorator-react-ts",
   "version": "0.1.0",
   "private": true,
+  "description": "This programme enables you to seach data from the Star Wars API resources.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdrienFabre/SWAPI-explorator-React-TS.git"
+  },
+  "author": "Adrien Fabre",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdrienFabre/SWAPI-explorator-React-TS/issues"
+  },
+  "homepage": "https://github.com/AdrienFabre/SWAPI-explorator-React-TS#readme",
   "dependencies": {
-    "@types/jest": "24.0.18",
-    "@types/node": "12.7.3",
-    "@types/react": "16.9.2",
-    "@types/react-dom": "16.9.0",
+    "array-flatten": "^2.1.2",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
+    "react-redux": "^7.1.1",
+    "react-router-dom": "^5.0.1",
     "react-scripts": "3.1.1",
-    "typescript": "3.6.2"
+    "redux-thunk": "^2.3.0",
+    "redux-thunk-recursion-detect": "^1.1.3",
+    "typescript": "3.6.3"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.18",
+    "@types/node": "12.7.5",
+    "@types/react": "^16.9.2",
+    "@types/react-dom": "16.9.0",
+    "@types/react-redux": "^7.1.2",
+    "@types/react-router-dom": "^4.3.5",
+    "@typescript-eslint/eslint-plugin": "^2.2.0",
+    "@typescript-eslint/parser": "^2.2.0",
+    "eslint-config-prettier": "^6.3.0",
+    "eslint-config-react": "^1.1.7",
+    "eslint-plugin-prettier": "^3.1.0",
+    "prettier": "^1.18.2"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint:fix": "eslint './src/**/*.{ts,tsx}'"
   },
   "eslintConfig": {
     "extends": "react-app"

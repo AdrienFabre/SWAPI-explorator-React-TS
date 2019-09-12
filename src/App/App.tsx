@@ -1,6 +1,6 @@
-import React from "react";
-import logo from "./images/starWarsLogo.png";
-import "./App.css";
+import React from 'react';
+import logo from './images/starWarsLogo.png';
+import './App.css';
 
 const App: React.FC = () => {
   return (
